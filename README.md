@@ -17,7 +17,7 @@
     <code>cd Nosso-clima</code>
     <li>Abra o arquivo <code>Weather.php</code> em Config e substitua o valor da váriavel <code>$apiKey</code> pela sua chave de API do OpenWeatherMap:</li>
     <pre><code>&lt;?php
-  $apiKey = 'sua chave;
+  $apiKey = 'sua chave';
 ?&gt;</code></pre>
       <li>Inicie o servidor web e acesse o site pelo navegador.</li>
     </ol>
@@ -38,7 +38,7 @@
     <li><code>weather.php</code>: Função que se comunica com a API do OpenWeatherMap para obter os dados meteorológicos.</li>
     <li><code>Intermediary.php</code>: Arquivo que faz comunicação entre o <code>Script.js</code> e o arquivo <code>Weather.php</code></li>
     <li><code>assets/</code>: Diretório contendo arquivos de estilo CSS e scripts JavaScript.</li>
-    <li><code>assets/js/Script.js</code>: Script JavaScript que controla as interações do usuário e exibe os dados do clima.</li>
+    <li><code>app/js/Script.js</code>: Script JavaScript que controla as interações do usuário e exibe os dados do clima.</li>
 </ul>
 
 <h2>Tecnologias Utilizadas</h2>
@@ -61,10 +61,6 @@
       &copy; 2023 Nosso tempo
     </div>
   </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-  <br>
-  <script src="assets/js/main.js"></script>
 </body>
 
 </html>
